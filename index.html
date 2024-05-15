@@ -1053,7 +1053,7 @@ FAX: 08175119582</p>
                     async function fetchProducts() {
                         try {
                             showLoadingMessage(); // Show loading message
-                            const response = await fetch('https://skiek-admin.onrender.com/api/products?category=Home');
+                            const response = await fetch('https://skiek-backend.onrender.com/api/products?category=Home');
                             const products = await response.json();
                 
                             // Add products to the container
